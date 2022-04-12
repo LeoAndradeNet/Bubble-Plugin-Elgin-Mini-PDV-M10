@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "small business",
+        "1": "payment"
+    },
+    "demo_page": "https://elginm10.bubbleapps.io/version-test",
+    "description": "Este plugin é para utilizar as funcionalidades do Mini PDV M10 da Elgin | Bematech",
+    "image": "//s3.amazonaws.com/appforest_uf/f1647186019605x743415016996689800/1634593447318.jpg",
+    "license": "open_source",
+    "name": "Elgin Mini PDV M10",
+    "plugin_instructions": "Assista esse video tutorial https://youtu.be/xqO9Mc730Yc para poder entender como esse plugin funciona.\n\nAPP EXEMPLO\n✅ https://bubble.io/page?name=index&id=elginm10&tab=tabs-1"
+}

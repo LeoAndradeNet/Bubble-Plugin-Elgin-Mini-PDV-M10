@@ -1,0 +1,62 @@
+{
+    "category": "plugins",
+    "display": "Imprimir Texto",
+    "fields": {
+        "AAR": {
+            "caption": "Texto",
+            "doc": "Texto a ser impresso",
+            "editor": "DynamicValue",
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Alinhamento",
+            "default_val": "Esquerda",
+            "doc": "Define o alinhamento da impressão - Opções possíveis: Esquerda | Centralizado | Direita",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "align",
+            "options": "",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Tipo de Fonte",
+            "default_val": "FONT A",
+            "doc": "Define o tipo de fonte da impressão - Opções possíveis: FONT A | FONT B",
+            "editor": "DynamicValue",
+            "name": "font",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "Tamanho da Fonte",
+            "default_val": 34,
+            "doc": "Define o tamanho da fonte - Opções: de 0 a 72",
+            "editor": "DynamicValue",
+            "name": "fontSize",
+            "rank": 3,
+            "value": "number"
+        },
+        "AAV": {
+            "caption": "Texto Sublinhado",
+            "default_val": false,
+            "doc": "Define se o texto vai estar sublinhado",
+            "editor": "DynamicValue",
+            "name": "isUnderline",
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAW": {
+            "caption": "Texto Negrito",
+            "default_val": false,
+            "doc": "Define se o texto vai estar com negrito",
+            "editor": "DynamicValue",
+            "name": "isBold",
+            "rank": 5,
+            "value": "boolean"
+        }
+    },
+    "type": "client_side"
+}

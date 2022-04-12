@@ -1,0 +1,15 @@
+{
+    "category": "plugins",
+    "display": "Imprime Imagem",
+    "fields": {
+        "AAc": {
+            "caption": "Imagem Base 64",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "imgBase64",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

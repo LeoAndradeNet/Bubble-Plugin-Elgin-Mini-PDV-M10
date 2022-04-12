@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "Imprime QR Code",
+    "fields": {
+        "AAX": {
+            "caption": "Tamanho",
+            "doc": "Tamanho do QR Code",
+            "editor": "DynamicValue",
+            "name": "qrSize",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAY": {
+            "caption": "Texto",
+            "doc": "Texto do QR Code",
+            "editor": "DynamicValue",
+            "name": "text",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Alinhamento",
+            "doc": "Opções suportadas: Esquerda, Centralizado, Direita",
+            "editor": "DynamicValue",
+            "name": "align",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

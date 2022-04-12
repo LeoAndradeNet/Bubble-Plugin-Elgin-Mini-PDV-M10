@@ -1,0 +1,49 @@
+{
+    "category": "plugins",
+    "display": "Imprime Codigo de Barras",
+    "fields": {
+        "AAG": {
+            "caption": "Tipo",
+            "doc": "Opções suportadas: UPC-A | UPC-E | JAN13 | EAN 13 | JAN8 | EAN 8 | CODE 39 | ITF | CODE BAR | CODE 93 | CODE 128",
+            "editor": "DynamicValue",
+            "name": "barCodeType",
+            "options": "UPC-A, UPC-E, JAN13 / EAN 13, JAN8 / EAN 8,CODE 39,ITF,CODE BAR,CODE 93,CODE 128",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Texto",
+            "doc": "Informações a serem impressas",
+            "editor": "DynamicValue",
+            "name": "text",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Altura",
+            "doc": "Altura do código de barras",
+            "editor": "DynamicValue",
+            "name": "height",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAJ": {
+            "caption": "Largura",
+            "doc": "Valor máximo = 6",
+            "editor": "DynamicValue",
+            "name": "width",
+            "rank": 3,
+            "value": "number"
+        },
+        "AAK": {
+            "caption": "Alinhamento",
+            "doc": "Opções suportadas: Esquerda, Centralizado, Direita",
+            "editor": "DynamicValue",
+            "name": "align",
+            "options": "Esquerda, Centralizado, Direita",
+            "rank": 4,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

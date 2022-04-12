@@ -1,0 +1,16 @@
+{
+    "category": "plugins",
+    "display": "Cortar Papel",
+    "fields": {
+        "AAM": {
+            "caption": "Quantidade Linhas",
+            "default_val": 10,
+            "doc": "Quantidade de linhas que deseja avançar",
+            "editor": "DynamicValue",
+            "name": "quant",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "client_side"
+}

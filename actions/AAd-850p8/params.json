@@ -1,0 +1,41 @@
+{
+    "category": "plugins",
+    "display": "Imprime XML NFCe",
+    "fields": {
+        "AAe": {
+            "caption": "XML NFCe",
+            "doc": "XML da Nota Fiscal",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "xmlNFCe",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "Identificador do CSC",
+            "doc": "Identificador do CSC (Código de Segurança do Contribuinte no Banco de Dados da SEFAZ)",
+            "editor": "DynamicValue",
+            "name": "indexcsc",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAg": {
+            "caption": "Código de Segurança do Contribuinte",
+            "doc": "Código de Segurança do Contribuinte",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "csc",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Parâmetro",
+            "doc": "Parâmetro do tipo numérico para ativar bits que modificam o cupom a ser impresso",
+            "editor": "DynamicValue",
+            "name": "param",
+            "rank": 3,
+            "value": "number"
+        }
+    },
+    "type": "client_side"
+}

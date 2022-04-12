@@ -1,0 +1,21 @@
+{
+    "category": "plugins",
+    "display": "Exibir Toast",
+    "fields": {
+        "AAP": {
+            "caption": "Mensagem",
+            "doc": "Mensagem que deseja exibir nativamente",
+            "editor": "StaticText",
+            "name": "message",
+            "rank": 0
+        },
+        "AAQ": {
+            "caption": "Mensagem Longa",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "lengthlong",
+            "rank": 1
+        }
+    },
+    "type": "client_side"
+}
